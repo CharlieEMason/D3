@@ -41,7 +41,8 @@
     Rin2 = 1/((1/Rs)+(1/(rp2+Re*(beta+1))));
    
     %step 7
-    Ro2 = 1/((1/Re)+(1/((rp2 + Rs)/(beta + 1))));
+    %Ro2 = 1/((1/Re)+(1/((rp2 + Rs)/(beta + 1))));
+    Ro2 = (Rs+rp2)/(1+beta);
     
 %CE Amp
     Ic1 = 0.002; %step 13
