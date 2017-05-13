@@ -1,4 +1,4 @@
-%D3 Prep
+%The matlab script used to caluclate the component values for each stage is shown below:
 
 %Variables
     %step 1
@@ -15,8 +15,6 @@
     Rsource = 100; %Source Resistance
 
 %CC Amp
-
-    
     %step 2
     Vce2 = Vcc/2;
     Ve2 = Vce2;
